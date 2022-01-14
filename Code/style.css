@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+/* header part */
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo style............ */
+.logo-part{
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+
+    
+}
+.logo-title{
+    margin-left: -30px;
+}
+.logo-title a{
+    text-decoration: none;
+    color: black;
+}
+/* logo style end */
+
+/* ========================<<<<<<<____>>>>>>>>>>====================== */
+
+/* nav item style */
+.nav-link{
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+li{
+    list-style: none;
+}
+
+/* nav item style */
+/* ========================<<<<<<<____>>>>>>>>>>====================== */
+
+/* home content style ........................... */
+
+.home-content{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.introduction{
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    border: 2px solid rgb(91, 54, 98);
+    border-radius: 10px;
+    padding: 4px;
+    color: black;
+    background-image: linear-gradient();
+}
+.tim-cook img{
+    width: 50%;
+    border-radius: 49px;
+    margin-left: 300px;
+}
