@@ -1,8 +1,11 @@
 
+/* google fonts here  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
-
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* header part */
@@ -62,9 +65,15 @@ li{
     margin-left: 50px;
     align-items: center;
 }
+h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 850;
+}
 
 .introduction{
     font-size: 20px;
+
 }
 .btn{
     font-size: 20px;
@@ -74,10 +83,141 @@ li{
     border-radius: 10px;
     padding: 4px;
     color: black;
-    background-image: linear-gradient();
+    margin-left: 10px;
 }
 .tim-cook img{
     width: 50%;
     border-radius: 49px;
     margin-left: 300px;
+}
+
+
+/* products-logo style  */
+
+.grid-title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-bottom: -100px;
+}
+
+
+.all-brand-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 150px;
+}
+
+.all-products-logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 100px;
+    justify-content: space-around;
+}
+
+.product-logo img{
+    width: 100px;
+
+}
+.information{
+    margin-left: 10px;
+}
+.ratting-star{
+    color:coral;
+    font-size: 10px;
+}
+.ratting-point{
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.product-title h2{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* products logo style end  */
+
+
+
+/* mac-brand- */
+
+.brand-photo img{
+    width: 100%;
+
+
+}
+.brand{
+    border-left: 3px solid steelblue;
+    border-bottom:3px solid steelblue ;
+    border-radius: 7% / 8%;
+    box-shadow:-1px 3px 5px rgb(54, 30, 30);
+    
+}
+/* first section end  */
+
+.left-site a{
+    text-decoration: none;
+}
+.left-site p{
+    font-size: 20px;
+    font-weight: 800;
+    justify-content: space-between;
+    
+}
+
+
+/* extra section  */
+.extra-section{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.chip-photo{
+    padding: 20px;
+}
+.chip-photo img{
+    width: 90%;
+    border-radius: 30px;
+}
+.chip-info{
+    width: 100%;
+}
+.chip-info p{
+    font-weight: 700;
+    word-spacing: 7px;
+}
+
+
+/* foote style   */
+
+footer{
+    background-color:rgb(5, 15, 26);
+    text-align: center;
+}
+.footer-info{
+    color: #fff;
+}
+.social-button ul{
+    display:flex;
+    justify-content: center;
+}
+.social-button ul li a{
+    color: #fff;
+}
+.last-section{
+    padding: 10px;
+}
+.social-button{
+    margin-top: -15px;
+}
+.footer-info h2{
+    margin-bottom: -10px;
 }
