@@ -71,6 +71,7 @@ li{
 
 /* home content style ........................... */
 
+
 .home-content{
     display: flex;
     margin-left: 50px;
@@ -190,6 +191,7 @@ h1{
     cursor: pointer;
     
 }
+
 /* first section end  */
 
 .left-site a{
